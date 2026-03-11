@@ -248,13 +248,13 @@ if __name__ == '__main__':
                         if key2 in [args.model, args.fs]:
                             print('\t', key2, ':', args.__dict__[key][key2])
 
-            for fs_seed in [0]:
+            for fs_seed in [0,1]:
                 args.fs_seed = fs_seed
                 if args.fs != 'no_selection':
                     search_stage_main(args, fs_seed)
 
-            # for fs_seed in [0,1]:
-            #     args.fs_seed = fs_seed      
-            #     for seed in [0,1,2]:
-            #         args.seed = seed
-            #         retrain_stage_main(args,seed, fs_seed )
+            for fs_seed in [0,1]:
+                args.fs_seed = fs_seed      
+                for seed in [0,1]:
+                    args.seed = seed
+                    retrain_stage_main(args,seed, fs_seed )
