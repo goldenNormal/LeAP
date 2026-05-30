@@ -2,9 +2,7 @@
 
 ## Getting Started
 ### Dataset
-The dataset are available at: [[MEGA_LINK](https://mega.nz/file/n8hBHJjb#GCaqxo-tZV61HiP7LoEXu3zCvDX2k6LKcZ77Om-eYIw)] for the purpose of peer review.
-
-If you encounter a transfer quota limit, please try again after a few hours or use a VPN.
+The dataset are available at: [huggingface](https://huggingface.co/datasets/yihong-1101/DRS-dataset/tree/main) for the purpose of peer review.
 
 ### Prerequisites
 All required packages are listed in `requirements.txt`.
